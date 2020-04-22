@@ -23,8 +23,6 @@ UserDAO.prototype.autenticar = function(user,req,res){
 				{
 					req.session.autenticado = true;
 					req.session.usuario = result[0].user;
-
-
 				}
 
 
